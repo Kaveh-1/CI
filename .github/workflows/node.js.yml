@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v3
 
       # Утанавливаем все необходимые зависимости и запускаем тесты node
-      - name: npm lnstall, test and build
+      - name: npm install, test and build
         run: |
           npm install 
           npm run build
